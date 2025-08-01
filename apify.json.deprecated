@@ -1,0 +1,29 @@
+{
+  "actorSpecification": 1,
+  "name": "instagram-competitor-reel-analyzer",
+  "title": "Instagram Competitor Reel Analyzer",
+  "description": "Analyzes Instagram competitors' top-performing reels to extract insights about hooks, topics, delivery styles, and generates content ideas using AI",
+  "version": "1.0.0",
+  "meta": {
+    "templateId": "python-start"
+  },
+  "input": "./input_schema.json",
+  "dockerfile": "./Dockerfile",
+  "readme": "./README.md",
+  "environmentVariables": {
+    "APIFY_TOKEN": {
+      "isSecret": true,
+      "description": "Apify API token for authentication"
+    },
+    "OPENROUTER_API_KEY": {
+      "isSecret": true,
+      "description": "OpenRouter API key for AI-powered content idea generation"
+    }
+  },
+  "categories": ["SOCIAL_MEDIA", "MARKETING", "SCRAPING", "AI", "CONTENT_CREATION"],
+  "defaultRunOptions": {
+    "build": "latest",
+    "timeoutSecs": 7200,
+    "memoryMbytes": 2048
+  }
+}

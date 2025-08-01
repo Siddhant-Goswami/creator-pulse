@@ -1,0 +1,8 @@
+{
+  "actorSpecification": 1,
+  "name": "twitter-competitor-analyzer",
+  "title": "Twitter Competitor Analyzer", 
+  "description": "Analyzes Twitter competitors' top-performing tweets to extract insights about hooks, topics, engagement patterns, and generates content ideas using AI",
+  "version": "2.0",
+  "dockerfile": "./Dockerfile"
+}

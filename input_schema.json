@@ -1,0 +1,41 @@
+{
+  "title": "Twitter Competitor Analysis Input",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "user_username": {
+      "title": "Your Twitter Username",
+      "type": "string",
+      "description": "Your Twitter username (without @) to find similar competitors automatically",
+      "editor": "textfield"
+    },
+    "competitor_usernames": {
+      "title": "Competitor Twitter Usernames",
+      "type": "array",
+      "description": "List of competitor Twitter usernames (without @) to analyze their tweets",
+      "editor": "stringList"
+    },
+    "auto_discover_competitors": {
+      "title": "Auto-discover Competitors",
+      "type": "boolean",
+      "description": "Automatically find competitors based on your username and niche",
+      "default": true,
+      "editor": "checkbox"
+    },
+    "min_competitors": {
+      "title": "Minimum Competitors",
+      "type": "integer",
+      "description": "Minimum number of competitors to analyze (will auto-discover if needed)",
+      "default": 5,
+      "editor": "number"
+    },
+    "tweets_per_competitor": {
+      "title": "Tweets per Competitor",
+      "type": "integer",
+      "description": "Number of top performing tweets to analyze per competitor",
+      "default": 20,
+      "editor": "number"
+    }
+  },
+  "required": []
+}
