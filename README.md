@@ -1,4 +1,4 @@
-# Instagram Competitor Reel Analyzer
+# Creator Pulse
 
 An Apify actor that analyzes Instagram competitors' top-performing reels to extract insights about hooks, topics, delivery styles, and generates personalized content ideas using AI.
 
